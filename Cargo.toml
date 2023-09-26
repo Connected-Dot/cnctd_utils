@@ -1,6 +1,6 @@
 [package]
 name = "cnctd_utils"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Connected Dot Inc.", "Kyle Ebner <kyle@cnctd.world>"]
 description = "Collection of cnctd tools and traits"
@@ -12,3 +12,6 @@ keywords = ["module"]
 
 [dependencies]
 anyhow = "1.0.75"
+colored = "2.0.4"
+crossterm = "0.27.0"
+figlet-rs = "0.1.5"
